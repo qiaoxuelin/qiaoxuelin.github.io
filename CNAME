@@ -1,0 +1,4 @@
+echo "floactive.top" > CNAME  # 替换为你的域名
+git add CNAME
+git commit -m "Add CNAME"
+git push
