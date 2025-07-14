@@ -1,0 +1,5 @@
+# 在仓库根目录创建 CNAME 文件（无后缀）
+echo "www.floactive.top" > CNAME  # 替换为你的域名
+git add CNAME
+git commit -m "Add CNAME"
+git push
